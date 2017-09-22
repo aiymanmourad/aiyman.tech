@@ -6,14 +6,19 @@
 -->
 <html>
 	<head>
-		<title>Landing - Forty by HTML5 UP</title>
+		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+				
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	</head>
+	
 	<body>
 
 		<!-- Wrapper -->
@@ -22,7 +27,7 @@
 				<!-- Header -->
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
 					<header id="header" class="alt style2">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a href="index.html"><strong>Mourad</strong> <span>aiyman</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -47,10 +52,18 @@
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
+								<img src="images/mech.jpg" alt="" />
 							</span>
 							<header class="major">
 								<h1>Landing</h1>
+								 
+								 
+						<div class="lang"> 
+									
+							<div><img src="images/sliders/html5.png" width="40" height="40"></div>
+							<div><h1>2</h1></div>
+								
+						</div>
 							</header>
 							<div class="content">
 								<p>Lorem ipsum dolor sit amet nullam consequat<br />
@@ -216,6 +229,14 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+			<script type="text/javascript" src="slick/slick.min.js"></script>
+			
+			<script type="text/javascript">
+    		$(document).ready(function(){
+			$('.lang').slick({});});
+    		</script>
 
 	</body>
 </html>

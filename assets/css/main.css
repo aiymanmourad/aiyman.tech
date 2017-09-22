@@ -68,6 +68,12 @@
 /* Grid */
 
 
+
+
+	.your-class {
+			max-height: 50%;
+	}
+
 	.flip {
 		-moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
@@ -2838,7 +2844,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.65;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2877,11 +2883,11 @@
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #C5E7F2;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #DCD9ED;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -2889,11 +2895,11 @@
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #9FB48C;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #f6d7b2;
 			}
 
 			.tiles article:nth-child(6n):before {
